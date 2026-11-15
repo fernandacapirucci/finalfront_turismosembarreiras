@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="assets/x-icon" href="assets/favicon-logo.png">
+    <title>Turismo sem Barreiras</title>
+
+    <link rel="stylesheet" href="style/Login.css">
+    <link rel="stylesheet" href="style/acessibilidade.css">
+</head>
+
+<body>
+
+<div class="top-bar">
+    <div class="top-container">
+
+        <div class="telefone">
+            <img src="assets/telefone.png" alt="Telefone">
+            <span>Central 0800 123 4567</span>
+        </div>
+
+        <div class="links-topo">
+            <a href="Cadastrar.html">Seja uma agência parceira</a>
+            <a href="Central_ajuda.html">Ajuda</a>
+        </div>
+
+    </div>
+    </div>
+
+
+<header class="header">
+    <div class="header-container">
+
+        <div class="logo-area">
+
+            <img src="assets/logo.png" >
+
+            <div class="logo-text">
+                <h1>Turismo <span>sem Barreiras</span></h1>
+                <p>Viagens acessíveis pelo Brasil</p>
+            </div>
+
+            </div>
+            <a href="login.html" class="btn-login">
+                <img src="assets/perfil.png" >
+                Entrar ou cadastrar
+            </a>
+            </div>
+
+</header>
+
+
+    <div class="menu-container">
+        <nav id="menu">
+
+            <a href="Home.html">
+                <img src="assets/inicio.png">
+                <span>Início</span>
+            </a>
+
+            <a href="Pacotes.html">
+                <img src="assets/pacotes.png">
+                <span>Pacotes</span>
+            </a>
+
+
+            <a href="Agencia.html">
+                <img src="assets/agencias.png">
+                <span>Agências</span>
+            </a>
+
+
+            <a href="Como_funciona.html">
+                <img src="assets/como-funciona.png">
+                <span>Como funciona</span>
+            </a>
+
+            <a href="Sobre_nos.html">
+                <img src="assets/sobre-nos.png">
+                <span>Sobre nós</span>
+            </a>
+
+            <a href="Central_ajuda.html">
+                <img src="assets/centraldeajuda.png">
+                <span>Central de ajuda</span>
+            </a>
+
+            
+        </nav>
+    </div>
+
+<section class="user">
+
+    <div class="user-box"></div>
+
+        <div class="user-data">
+
+        <div class="tabs">
+            <button class="tab active" onclick="window.location.href='Login.html'">Entrar</button>
+            <button class="tab" onclick="window.location.href='Cadastrar.html'">Cadastrar</button>
+        </div>
+
+
+        <h2>Entrar na sua conta</h2>
+        <p>Acesse suas viagens, favoritos e reservas.</p>
+
+        <div>
+            <h3>E-mail</h3>
+            <input type="email" id="email" placeholder="Digite o seu e-mail" autocomplete="email">
+        </div>
+
+        <div>
+            <h3>Senha</h3>
+            <div class="campo-senha">
+                <input type="password" id="senha" placeholder="Digite a sua senha" autocomplete="current-password">
+                <button type="button" id="toggle-senha" aria-label=" Mostrar senha, botão">
+                    <img src="assets/olho-fechado.png" id="icone-olho">
+                </button>
+            </div>
+        </div>
+
+        <p class="mensagem-erro" id="mensagem-erro" role="alert" hidden></p>
+
+        <div class="but-entrar">
+        <button type="button" id="btn-entrar">Entrar</button>
+        </div>
+
+        <div class="divider">
+            <span></span>
+            <p>ou</p>
+            <span></span>
+        </div>
+
+        <div class="but-google">
+         
+            <div id="googleButton"></div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="principal">
+
+</section>
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+<script src="javaScript/api.js"></script>
+<script src="javaScript/Login.js"></script>
+<script src="javaScript/vlibras.js"></script>
+<script src="javaScript/acessibilidade.js"></script>
+<script src="javaScript/sessao.js"></script>
+</body>
+</html>
